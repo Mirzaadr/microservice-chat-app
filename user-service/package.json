@@ -1,0 +1,31 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "handle user authorization etc",
+  "main": "index.js",
+  "author": "Mirzaadr",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "20.2.1",
+    "@hapi/jwt": "^3.2.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "joi": "^17.13.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.8.2",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/hapi__boom": "^9.0.1",
+    "@types/hapi__hapi": "20.0.9",
+    "@types/hapi__jwt": "^2.0.5",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.9.1",
+    "@types/validator": "^13.12.2",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
